@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shaded-box{
+    @apply flex flex-col gap-2 bg-[#2E2F3B] opacity-70 md:mr-5 rounded-lg overflow-auto scrollbar-none
+}
